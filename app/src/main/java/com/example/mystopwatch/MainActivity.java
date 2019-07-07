@@ -24,14 +24,7 @@ public class MainActivity extends AppCompatActivity {
 
         chronometer.setBase(SystemClock.elapsedRealtime());
 
-/*        chronometer.setOnChronometerTickListener(new Chronometer.OnChronometerTickListener(){
-
-            @Override
-            public void onChronometerTick(Chronometer chronometer) {
-                if((SystemClock.elapsedRealtime() - chronometer.getBase())) >= 10000000
-
-            }
-        });*/
+/*        */
     }
 
     public void startChronometer(View view) {
