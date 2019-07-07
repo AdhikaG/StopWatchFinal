@@ -59,7 +59,11 @@ public class MainActivity extends AppCompatActivity {
 
         chronometer.setBase(SystemClock.elapsedRealtime());
         pauseOff=0;
+        if (Run) {
+            chronometer.stop();
+            Run = false;
 
+        }
     }
 
 }
